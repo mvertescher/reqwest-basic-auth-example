@@ -1,0 +1,17 @@
+[package]
+authors = ["Matt Vertescher <mvertescher@gmail.com>"]
+edition = "2018"
+name = "reqwest-basic-auth-example"
+version = "0.1.0"
+
+[dependencies]
+serde = "1.0.104"
+serde_derive = "1.0.104"
+
+[dependencies.reqwest]
+features = ["json"]
+version = "0.10.0"
+
+[dependencies.tokio]
+features = ["macros"]
+version = "0.2.8"
